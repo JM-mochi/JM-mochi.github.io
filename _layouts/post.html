@@ -11,8 +11,9 @@ layout: default
       <div class="entry-content">
         {{ content }}
       </div>
-      {% if site.disqus.shortname %}
-        {% include disqus_comments.html %}
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <hr />
+        
         <script src="https://utteranc.es/client.js"
           repo="https://github.com/JM-mochi/JM-mochi.github.io.git"
           issue-term="title"
@@ -20,6 +21,9 @@ layout: default
           crossorigin="anonymous"
           async>
         </script>
+      </div>
+      {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
       {% endif %}
     </article>
   </div>
