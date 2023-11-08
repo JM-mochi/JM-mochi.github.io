@@ -35,11 +35,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-paginate: 5
-paginate_path: /page:num/
-
-paginate: 5  # amount of posts to show per page
-paginate_path: /page:num/
+paginate: 5 # 한 페이지에 표시할 게시물 수
+paginate_path: /page:num/ # 페이지 번호에 대한 경로
 
 # Exclude from processing.
 # The following items will not be processed, by default.
