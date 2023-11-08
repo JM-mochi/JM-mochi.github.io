@@ -33,6 +33,10 @@ github_username:  JM-mochi
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 plugins: 
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: /page:num/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
