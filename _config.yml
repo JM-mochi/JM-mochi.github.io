@@ -34,6 +34,8 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 plugins: 
   - jekyll-feed
 
+future: true
+
 google_analytics: G-KQKRNBKJYQ
 # Exclude from processing.
 # The following items will not be processed, by default.
