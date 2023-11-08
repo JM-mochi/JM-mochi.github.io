@@ -33,10 +33,7 @@ github_username:  JM-mochi
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 plugins: 
   - jekyll-feed
-  - jekyll-paginate
 
-paginate: 5 # 한 페이지에 표시할 게시물 수
-paginate_path: /page:num/ # 페이지 번호에 대한 경로
 
 # Exclude from processing.
 # The following items will not be processed, by default.
